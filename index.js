@@ -17,7 +17,7 @@ const PORT = process.env.PORT
 const app = express()
 app.use(cors({
     credentials:true,
-    origin:'http://localhost:5173'
+    origin:'https://notes-server-two.vercel.app/'
 }))
 
 
